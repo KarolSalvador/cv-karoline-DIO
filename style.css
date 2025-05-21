@@ -9,6 +9,24 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+#topoInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#darkThemeBtn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#darkThemeImg {
+    width: 40px;
+    height: 40px;
+}
+
 /*Estilos para níveis de classificação*/
 .w3-container .w3-light-grey.w3-round-xlarge.w3-small {
   position: relative;
@@ -32,4 +50,50 @@ h6 {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+/* --- ESTILOS PARA O TEMA ESCURO --- */
+.dark-mode {
+  background-color: #212830;
+  color: #e0e0e0;
+}
+
+
+.dark-mode,
+.dark-mode p,
+.dark-mode li,
+.dark-mode span,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5 { 
+  color: #e0e0e0;
+}
+
+
+.dark-mode .w3-white {
+  background-color: #212830 !important;
+  color: #e0e0e0;
+}
+
+.dark-mode .w3white .w3-text-grey {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .w3-text-cyan {
+  color: #8be9fd !important;
+}
+
+.dark-mode .w3-light-grey {
+  background-color: #303942!important;
+}
+
+.dark-mode .e3-round-xlarge.w3-cyan {
+  background-color: #00bcd4 !important;
+}
+
+.dark-mode footer.w3-cyan {
+  background-color: #005662 !important;
+  color: #e0e0e0;
 }
